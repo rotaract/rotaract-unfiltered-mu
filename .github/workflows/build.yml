@@ -1,0 +1,26 @@
+name: Build
+
+on:
+  push:
+    branch: [ master ]
+  pull_request:
+    branch: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Greet the world
+        run: echo 'Hello World!'
+
+      - name: Upload
+        uses: actions/upload-artifact@v2
+        with:
+          name:
+          path: |
+            ./*
+            !tmp
+            !.*

@@ -1,0 +1,85 @@
+= GitHub Template
+Rotaract Germany
+
+ifdef::env-github[]
+:tip-caption: 💡
+:note-caption: ℹ
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠
+endif::[]
+
+:badge_url: https://img.shields.io
+:custom_badge: {badge_url}/badge
+:repo_path: rotaract/github-template
+
+:year: 2021
+
+// General Badges
+image:{custom_badge}/Open_Source-❤-orange[Open Source, link="https://opensource.org"] +
+//   * Coding Style
+//   * Rotaract Badge
+//   * Framework
+//   * Keywords
+// Status Badges
+//   * Build Status
+//   * Maintenance
+image:https://img.shields.io/maintenance/yes/{year}[Maintenance Status]
+//   * Website up
+image:https://img.shields.io/website?url=https%3A%2F%2Frotaract.de[Website Status, link="https://rotaract.de"]
+
+// No Badges concerning
+//   * Deployment status (inappropriate placement)
+//   * License (own file and #Legal Notices at ending of README)
+//   * number of contributors (irrelevant)
+//   * Version (right sidebar in GitHub)
+//   * System / Version Requirements (own section in README)
+
+== Overview
+
+A short description (one line).
+
+Longer description specifying:
+
+* Motivation
+* Purpose
+* Target devices / framework / ...
+* Used technology
+
+== Checklist
+
+* [ ] Change README title
+* [ ] Write description of repo
+* [ ] Update issue templates
+* [ ] Change mail address in code of conduct
+* [ ] Create .github/dependabot.yml
+* [ ] Complete build.yml workflow
+* [ ] (optional) Change license in LICENSE and README's Legal Notices
+
+== 🔧 Setup / Installation
+
+.Prerequisites
+[NOTE]
+--
+* ...
+--
+
+=== Usage
+
+== Code of Conduct
+
+Please note that this project is release with the link:CODE_OF_CONDUCT.adoc[Contributor Covenant Code of Conduct].
+By contributing to this project, you agree to abide by its terms.
+
+== ⚖️ Legal Notices
+
+Copyright © 2021, Rotaract Deutschland
+
+Licensed under European Union Public License 1.2 (EUPL-1.2).
+
+_Rotary_, _Rotaract_, and _Interact_ are trademarks or registered trademarks of Rotary International and are used with the permission of Rotary International.
+Other trademarks not owned by Rotary International are the property of their respective owners.
+The license above does not grant any rights under trademark law and all such rights are reserved.
+Modified versions must be renamed to avoid use of any Rotary International trademarks, including but not limited to _Rotary_, _Rotaract_, and _Interact_.
+
+All Rotary, Rotaract, and Interact logos and graphics are under copyright.
