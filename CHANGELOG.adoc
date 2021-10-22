@@ -1,6 +1,6 @@
 = Changelog
 
-:repo: https://github.com/rotaract/github-template
+:repo: https://github.com/rotaract/rotaract-unfiltered-mu
 :compare: {repo}/compare
 
 All notable changes to this project will be documented in this file.
