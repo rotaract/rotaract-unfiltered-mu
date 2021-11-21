@@ -1,4 +1,4 @@
-= GitHub Template
+= Rotaract Unfiltered MU
 Rotaract Germany
 
 ifdef::env-github[]
@@ -11,12 +11,13 @@ endif::[]
 
 :badge_url: https://img.shields.io
 :custom_badge: {badge_url}/badge
-:repo_path: rotaract/github-template
+:repo_path: rotaract/rotaract-unfiltered-mu
 
 :year: 2021
 
 // General Badges
 image:{custom_badge}/Open_Source-❤-orange[Open Source, link="https://opensource.org"] +
+image:{custom_badge}/code_style-WordPress-brightgreen[Code Style, link="https://make.wordpress.org/core/handbook/best-practices/coding-standards/"]
 //   * Coding Style
 //   * Rotaract Badge
 //   * Framework
@@ -25,36 +26,11 @@ image:{custom_badge}/Open_Source-❤-orange[Open Source, link="https://opensourc
 //   * Build Status
 //   * Maintenance
 image:https://img.shields.io/maintenance/yes/{year}[Maintenance Status]
-//   * Website up
-image:https://img.shields.io/website?url=https%3A%2F%2Frotaract.de[Website Status, link="https://rotaract.de"]
-
-// No Badges concerning
-//   * Deployment status (inappropriate placement)
-//   * License (own file and #Legal Notices at ending of README)
-//   * number of contributors (irrelevant)
-//   * Version (right sidebar in GitHub)
-//   * System / Version Requirements (own section in README)
 
 == Overview
 
-A short description (one line).
-
-Longer description specifying:
-
-* Motivation
-* Purpose
-* Target devices / framework / ...
-* Used technology
-
-== Checklist
-
-* [ ] Change README title
-* [ ] Write description of repo
-* [ ] Update issue templates
-* [ ] Change mail address in code of conduct
-* [ ] Create .github/dependabot.yml
-* [ ] Complete build.yml workflow
-* [ ] (optional) Change license in LICENSE and README's Legal Notices
+https://wordpress.org/[WordPress] plugin that adds the `unfiltered_html` capability to Administrators and Editors so that content posted by users with those roles is not filtered by KSES; Embeds, Iframe, etc. are preserved.
+Note: If for any reason the `unfiltered_html` capability is ever lost, simply deactivate, and then reactivate this plugin.
 
 == 🔧 Setup / Installation
 

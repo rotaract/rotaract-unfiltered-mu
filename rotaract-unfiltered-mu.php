@@ -1,7 +1,5 @@
 <?php
 /**
- * The plugin bootstrap file
- *
  * This file is read by WordPress to generate the plugin information in the plugin admin area.
  *
  * @link https://github.com/rotaract/rotaract-unfiltered-mu
@@ -11,9 +9,9 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Rotaract Unfiltered MU
- * Plugin URI:        https://github.com/rotaract/rotaract-club-finder
+ * Plugin URI:        https://github.com/rotaract/rotaract-unfiltered-mu
  * Description:       Adds the <code>unfiltered_html</code> capablitiy to Administrators and Editors so that content posted by users with those roles is not filtered by KSES; Embeds, Iframe, etc. are preserved. <strong>Note</strong>: If for any reason the <code>unfiltered_html</code> capability is ever lost, simply deactivate, and then reactivate this plugin.
- * Version:           1.0.0
+ * Version:           0.1.0
  * Author:            Ressort IT-Entwicklung - Rotaract Deutschland
  * Author URI:        https://rotaract.de/ueber-rotaract/rdk/
  * License:           EUPL-1.2

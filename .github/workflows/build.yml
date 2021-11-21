@@ -1,4 +1,4 @@
-name: Build
+name: Build WordPress Plugin ZIP
 
 on:
   push:
@@ -9,17 +9,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
-
-      - name: Greet the world
-        run: echo 'Hello World!'
-
       - name: Upload
         uses: actions/upload-artifact@v2
         with:
-          name:
+          name: rotaract-unfiltered-mu
           path: |
             ./*
             !tmp
