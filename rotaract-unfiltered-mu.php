@@ -84,7 +84,7 @@ function um_unfilter_roles_one_time() {
 	$wp_roles->use_db = $use_db;
 
 	if ( is_user_logged_in() ) // Re-prime the current user's caps
-		$current_user->_init_caps();
+		$current_user->for_site();
 }
 
 if ( false !== strpos( __FILE__, MUPLUGINDIR ) )
