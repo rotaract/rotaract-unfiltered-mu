@@ -92,6 +92,7 @@ if ( false !== strpos( __FILE__, MUPLUGINDIR ) )
 function um_unfilter_multisite( $caps, $cap ) {
 	$map_caps = array(
 		'edit_css',
+		'manage_privacy_options',
 		'unfiltered_html'
 	);
 	if ( in_array( $cap, $map_caps ) ) {
