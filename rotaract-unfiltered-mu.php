@@ -90,12 +90,15 @@ function um_unfilter_roles_one_time() {
 if ( false !== strpos( __FILE__, MUPLUGINDIR ) )
 	add_action( 'init', 'um_unfilter_roles_one_time', 1 );
 
-// Add the unfiltered_html capability back in to WordPress 3.0 multisite.
-function um_unfilter_multisite( $caps, $cap, $user_id, $args ) {
-	if ( $cap == 'unfiltered_html' ) {
-		unset( $caps );
-		$caps[] = $cap;
+// Add the unfiltered_html capability back in to WordPress 5.8 multisite.
+function um_unfilter_multisite( $caps, $cap ) {
+	$map_caps = array(
+		'edit_css',
+		'unfiltered_html'
+	);
+	if ( in_array( $cap, $map_caps ) ) {
+		$caps = array( 'unfiltered_html' );
 	}
 	return $caps;
 }
-add_filter( 'map_meta_cap', 'um_unfilter_multisite', 10, 4 );
+add_filter( 'map_meta_cap', 'um_unfilter_multisite', 10, 2 );
