@@ -37,10 +37,10 @@ add_action( 'set_current_user', 'um_kses_init', 11 );
 
 
 /*
-	If you install this plugin in wp-content/plugins, the following code
-	will add the cap on plugin activation, and remove it on deactivation.
-	It will be a per-blog setting (the plugin will need to be activated on
-	each blog you want the unfiltered_html cap).
+   If you install this plugin in wp-content/plugins, the following code
+   will add the cap on plugin activation, and remove it on deactivation.
+   It will be a per-blog setting (the plugin will need to be activated on
+   each blog you want the unfiltered_html cap).
 */
 
 function um_unfilter_roles() {
@@ -68,9 +68,9 @@ register_activation_hook( __FILE__, 'um_unfilter_roles' );   // Add on activate
 register_deactivation_hook( __FILE__, 'um_refilter_roles' ); // Remove on deactivate
 
 /*
-	If you install this plugin in wp-content/mu-plugins, the following code
-	will add give all admins and all editors on every blog the
-	unfiltered_html cap.  Deleting this plugin will remove the cap.
+   If you install this plugin in wp-content/mu-plugins, the following code
+   will add give all admins and all editors on every blog the
+   unfiltered_html cap.  Deleting this plugin will remove the cap.
 */
 
 function um_unfilter_roles_one_time() {
