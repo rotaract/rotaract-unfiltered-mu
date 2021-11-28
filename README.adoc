@@ -29,8 +29,13 @@ image:https://img.shields.io/maintenance/yes/{year}[Maintenance Status]
 
 == Overview
 
-https://wordpress.org/[WordPress] plugin that adds the `unfiltered_html` capability to Administrators and Editors so that content posted by users with those roles is not filtered by KSES; Embeds, Iframe, etc. are preserved.
-Note: If for any reason the `unfiltered_html` capability is ever lost, simply deactivate, and then reactivate this plugin.
+https://wordpress.org/[WordPress] plugin that adds the following capabilities to roles "`Administrator`" and "`Editor`" so that content posted by users with those roles is not filtered by KSES; Embeds, Iframe, etc. are preserved:
+
+* `edit_css`
+* `manage_privacy_options`
+* `unfiltered_html`
+
+NOTE: If for any reason the capabilities are ever lost, simply deactivate, and then reactivate this plugin.
 
 == 🔧 Setup / Installation
 
