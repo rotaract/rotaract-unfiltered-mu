@@ -39,13 +39,8 @@ NOTE: If for any reason the capabilities are ever lost, simply deactivate, and t
 
 == 🔧 Setup / Installation
 
-.Prerequisites
-[NOTE]
---
-* ...
---
-
-=== Usage
+. Download https://github.com/rotaract/rotaract-unfiltered-mu/releases/latest/download/rotaract-unfiltered-mu.zip[latest zip file].
+. Use the manual plugin installation within your backend and activate the plugin.
 
 == Code of Conduct
 
