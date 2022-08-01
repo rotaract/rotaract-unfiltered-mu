@@ -13,7 +13,7 @@ endif::[]
 :custom_badge: {badge_url}/badge
 :repo_path: rotaract/rotaract-unfiltered-mu
 
-:year: 2021
+:year: 2022
 
 // General Badges
 image:{custom_badge}/Open_Source-❤-orange[Open Source, link="https://opensource.org"] +
@@ -49,7 +49,7 @@ By contributing to this project, you agree to abide by its terms.
 
 == ⚖️ Legal Notices
 
-Copyright © 2021, Rotaract Deutschland
+Copyright © {year}, Rotaract Deutschland
 
 Licensed under European Union Public License 1.2 (EUPL-1.2).
 
