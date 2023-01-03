@@ -13,7 +13,7 @@ endif::[]
 :custom_badge: {badge_url}/badge
 :repo_path: rotaract/rotaract-unfiltered-mu
 
-:year: 2022
+:year: 2023
 
 // General Badges
 image:{custom_badge}/Open_Source-❤-orange[Open Source, link="https://opensource.org"] +
